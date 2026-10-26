@@ -37,7 +37,9 @@ h2{font-family:var(--serif);font-style:italic;font-size:clamp(36px,5vw,56px);lin
 .brand{display:flex;align-items:center;gap:14px;color:var(--paper);text-decoration:none;font-size:14px;letter-spacing:.3em;font-weight:500;text-shadow:0 2px 10px rgba(0,0,0,.5)}
 .brand img{width:44px;height:44px;object-fit:contain}
 .top .rating{font-size:14px;letter-spacing:.14em;color:var(--paper);text-shadow:0 2px 10px rgba(0,0,0,.5)}
-.promo{background:var(--paper);color:var(--ink-2)}
+.promo{position:fixed;top:0;left:0;right:0;z-index:41;background:var(--paper);color:var(--ink-2);box-shadow:0 4px 18px rgba(0,0,0,.28)}
+.top.has-promo{padding-top:74px}
+html:has(.promo){scroll-padding-top:90px}
 .top .promo .wrap{display:block;padding-top:10px;padding-bottom:10px}
 .promo .coupon{margin:0;padding:6px 18px;gap:6px 12px;border-color:var(--bronze-dark);color:var(--ink-2)}
 .promo .coupon .label{font-size:13px}
@@ -173,6 +175,7 @@ footer a{color:var(--muted)}
   .top .rating{display:none}
   .promo .label,.promo .long{display:none}
   .promo .short{display:inline}
+  .top.has-promo{padding-top:70px}
   .promo .coupon code{font-size:19px}
   .brand span{font-size:12px;letter-spacing:.24em}
   .ticket .stub{width:58px}
