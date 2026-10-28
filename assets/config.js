@@ -4,7 +4,7 @@
 window.SITE_CONFIG = {
   // Deine Meta-Pixel-ID aus dem Events Manager (nur Ziffern).
   // Solange hier "DEINE_PIXEL_ID" steht, wird kein Pixel geladen.
-  pixelId: "DEINE_PIXEL_ID",
+  pixelId: "1562423087876144",
 
   // Wohin die Buttons führen
   bookingUrl: "https://sauna-pf.de/buchen?tarif=time2-week",
