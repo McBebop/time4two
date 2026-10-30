@@ -111,6 +111,10 @@ section{padding:96px 0}
 .prices .coupon{margin-top:30px;border-color:var(--bronze-dark);color:var(--ink-2)}
 .prices .coupon code{background:var(--ink-2);color:var(--paper)}
 .alt{margin-top:22px;color:#4A3A2C;font-size:16px}
+.howto{margin-top:14px;max-width:560px;font-size:15px;line-height:1.5;color:var(--muted)}
+.howto b{color:var(--bronze);font-weight:600}
+.prices .howto{margin:22px auto 0;text-align:center;color:#4A3A2C}
+.prices .howto b{color:var(--bronze-text)}
 .alt a{color:var(--bronze-dark);font-weight:500}
 
 /* Reviews */

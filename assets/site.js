@@ -109,5 +109,11 @@
     setupConsent();
     var y = document.getElementById("year");
     if (y) y.textContent = new Date().getFullYear();
+    // Ab dem 20. auf den Folgemonat verweisen, sonst auf den aktuellen
+    var d = new Date(), m = d.getDate() >= 20 ? new Date(d.getFullYear(), d.getMonth() + 1, 1) : d;
+    var name = m.toLocaleDateString("de-DE", { month: "long" });
+    document.querySelectorAll("[data-month]").forEach(function (el) {
+      el.textContent = name;
+    });
   });
 })();
