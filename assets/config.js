@@ -7,8 +7,8 @@ window.SITE_CONFIG = {
   pixelId: "1562423087876144",
 
   // Wohin die Buttons führen
-  bookingUrl: "https://sauna-pf.de/buchen?tarif=time2-week",
-  bookingUrlWeekend: "https://sauna-pf.de/buchen?tarif=time2-weekend",
+  bookingUrl: "https://sauna-pf.de/",
+  bookingUrlWeekend: "https://sauna-pf.de/",
   voucherUrl: "https://sauna-pf.de/gutscheine",
 
   // Wird an die Ziel-Links angehängt, damit du auf sauna-pf.de siehst,
