@@ -30,7 +30,7 @@
     }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
     window.fbq("init", String(cfg.pixelId));
     window.fbq("track", "PageView");
-    window.fbq("track", "ViewContent", { content_name: "Time for 2 Landingpage", content_category: "Buchung" });
+    window.fbq("track", "ViewContent", { content_name: "Time for 2 Landingpage", content_category: "Buchung", currency: "EUR", value: 200 });
     pixelReady = true;
   }
 
